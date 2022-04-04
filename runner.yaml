@@ -1,0 +1,9 @@
+# runner.yaml
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: Runner
+metadata:
+  namespace: actions-runner-system
+  name: battelle-runners
+spec:
+  organization: battelle
+

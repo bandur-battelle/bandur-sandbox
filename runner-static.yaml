@@ -1,0 +1,46 @@
+# Ephemeral with no label
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: RunnerDeployment
+metadata:
+  name: actions-runners
+  namespace: actions-runner-system
+spec:
+  replicas: 3
+  template:
+    spec:
+      organization: battelle
+      group: actions-runners-controller
+      ephemeral: true
+---
+# Static with label
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: RunnerDeployment
+metadata:
+  name: actions-runners-static
+  namespace: actions-runner-system
+spec:
+  replicas: 6
+  template:
+    spec:
+      organization: battelle
+      ephemeral: false
+      group: actions-runners-controller
+      labels:
+        - autoscale-static
+---
+# Ephemeral with label
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: RunnerDeployment
+metadata:
+  name: actions-runners-ephemeral
+  namespace: actions-runner-system
+spec:
+  replicas: 5
+  template:
+    spec:
+      organization: battelle
+      ephemeral: true
+      group: actions-runners-controller
+      labels:
+        - autoscale-ephemeral
+

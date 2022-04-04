@@ -1,0 +1,120 @@
+echo "Starting the activity"
+az account set --subscription 5214a24a-c875-4fc4-bec0-9dc48636455f
+az aks get-credentials --resource-group RB_ContainerGroup --name RBAKSCluster
+kubectl get nodes
+kubectl create namespace actions-runner-system
+kubectl create secret generic controller-manager     -n actions-runner-system     --from-literal=github_token=99f2f067b0174f773e620dbebc0831776a7d5082
+curl -H "Authorization: token 99f2f067b0174f773e620dbebc0831776a7d5082" https://api.battelle.github.us/metadata
+helm 
+helm repo add jetstack https://charts.jetstack.io
+helm repo update
+helm install cert-manager jetstack/cert-manager --namespace cert-manager --create-namespace --version v1.7.1 --set installCRDs=true
+helm repo add actions-runner-controller https://actions-runner-controller.github.io/actions-runner-controller
+kubectl set env deploy controller-manager -c manager GITHUB_ENTERPRISE_URL=https://battelle.github.us --namespace actions-runner-system
+helm upgrade --install --namespace actions-runner-system --create-namespace --wait actions-runner-controller actions-runner-controller/actions-runner-controller --set syncPeriod=1m --set githubEnterpriseServerURL=https://battelle.github.us/
+kubectl get po -A
+pwd
+hostname
+ls -ltar
+vi runner.yaml
+cat runner.yaml 
+kubectl apply -f runner.yaml
+kubectl get po -A
+kubectl get deployments
+vi runner.yaml 
+kubectl delete -f runner.yaml
+vi runner.yaml 
+kubectl apply -f runner.yaml
+kubectl get po -A
+kubectl get runner -n actions-runner-system
+kubectl desc  runner -n actions-runner-system battelle-runners
+kubectl describe  runner -n actions-runner-system battelle-runners
+kubectl delete -f runner.yaml
+kubectl apply -f runner.yaml
+kubectl describe  runner -n actions-runner-system battelle-runners
+kubectl po -A
+kubectl get po -A
+kubectl delete -f runner.yaml
+vi runners.yaml
+kubectl apply -f runners.yaml
+kubectrl get po -A
+kubectl get po -A
+kubectl delete -f runners.yaml
+vi runners.yaml
+cat runners.yaml 
+history
+765!
+kubectl apply -f runners.yaml
+kubectl get po -A -w
+vi runners.yaml
+kubectl apply -f runners.yaml
+kubectl get po -A 
+clear
+/kubectl
+clear
+kubectl delete -f runners.yaml
+ls -ltar
+kubectl get po -A
+vi runners.yaml
+cat runners.yaml
+kubectl apply -f runners.yaml
+kubectl get po -A
+kubectl get RunnerDeployment
+kubectl get RunnerDeployment -n actions-runner-system
+kubectl describe RunnerDeployment -n actions-runner-system actions-runner-deployment
+vi runners.yaml
+kubectl get nodes
+kubectl describe  node aks-nodepool1-10424045-vmss000002
+vi runners.yaml
+ls -ltar
+history | grep "kubectl describe"
+kubectl describe  node aks-nodepool1-10424045-vmss000002
+kubectl get po
+kubectl get po -A
+history
+ls -ltar
+vi runners.yaml
+mkdir oldStuff
+mv runners.yaml oldStuff
+kubectl delete -f rummers.yaml
+kubectl delete -f oldStuff
+history | grep kubectl
+kubectl get po -A
+clear
+pwd
+ls -ltar
+vi runner-static.yaml
+vi runner-static.yaml 
+kubectl apply -f runner-static.yaml
+kubectl apply -f runner-static.yaml get po
+kubectl get po -A
+history
+vi runner-static.yaml 
+kubectl apply -f runner-static.yaml
+kubectl get po -A
+ls -ltar
+ls -ld */
+cd oldStuff
+ls -ltar
+cat runners.yaml
+ls -ltar
+ls -lart
+cd ..
+ls -ltar
+cat runner.yaml
+clear
+history -5
+history 5
+history 10
+history 20
+kubectl get po -A
+ls -ltar
+less .bash_history 
+pwd
+ls -ltar
+cat .bash_history 
+pwd
+ls -ltar
+ps -ef | grep vi
+vi runner-static.yaml
+ls -ltar

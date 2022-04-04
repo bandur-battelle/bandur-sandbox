@@ -1,0 +1,1000 @@
+  104  az aks delete --resource-group RB_ContainerGroup --name RBAKSCluster 
+  105  az aks create --resource-group RB_ContainerGroup --name RBAKSCluster --node-count 1 --enable-addons monitoring --generate-ssh-keys
+  106  az aks delete --resource-group RB_ContainerGroup --name RBAKSCluster 
+  107  history
+  108  sftp --help
+  109  hostname
+  110  ipconfig 
+  111  ifconfig
+  112  ls -ltar
+  113  cd clouddrive
+  114  ls -ltar
+  115  cd .cloudconsole/
+  116  ls -ltar
+  117  cd
+  118  pwd
+  119  ls -ltar
+  120  history
+  121  105!
+  122  az aks create --resource-group RB_ContainerGroup --name RBAKSCluster --node-count 1 --enable-addons monitoring --generate-ssh-keys
+  123  pwd
+  124  cd .ssh
+  125  ls -ltar
+  126  cat id_rsa
+  127  az vm help
+  128  az vm list
+  129  pwd
+  130  ps -f
+  131  hostname
+  132  az vm list
+  133  ssh 10.2.0.4 -l azureuser
+  134  nslookup GHAERunnerController
+  135  clear
+  136  ssh GHAERunnersController-ip -l azureuser
+  137  clear
+  138  az vm start --resource-group RB_ResourceGroup --name GHAERunnersController
+  139  ssh GHAERunnersController -l azureuser
+  140  ssh 13.92.21.174 -l azureuser
+  141  ssh 10.2.0.4 -l azureuser
+  142  clear
+  143  dig 13.92.21.174
+  144  pwd
+  145  ipconfig
+  146  ifconfig
+  147  clear
+  148  pwd
+  149  cd .ssh
+  150  ls -ltar
+  151  ssh -i id_rsa azureuser@40.76.192.3
+  152  clear
+  153  ls -ltar
+  154  ssh -i id_rsa azureuser@10.2.0.4
+  155  ping 10.2.0.4
+  156  hostname
+  157  az
+  158  az vm list
+  159  clear
+  160  ls -ltar
+  161  cd ..
+  162  cd -
+  163  cat known_hosts 
+  164  cd -
+  165  az /?
+  166  az network 
+  167  az
+  168  az vm status
+  169  ssh 10.2.0.4 -l azureuser
+  170  pwd
+  171  hostname
+  172  ssh ghaeclientscontroller -l azureuser
+  173  ssh 20.124.97.41 -l azureuser
+  174  pwd
+  175  cd .ssh
+  176  ls -lart
+  177  mkdir oldkeys
+  178  mv id* oldkeys
+  179  mv ssh_key.pem oldkeys
+  180  ls -ltar
+  181  vi id_rsa
+  182  ls -ltar
+  183  chmod 600 id_rsa
+  184  clear
+  185  pwd
+  186  cd .ssh
+  187  ls -ltar
+  188  ssh GHAEClientsController -l azureuser
+  189  ssh 23.100.16.43
+  190  pwd
+  191  cd .ssh
+  192  ls -ltar
+  193  pwd
+  194  ls -ltar
+  195  vi centos.id_rsa
+  196  ls -ltar
+  197  ssh  23.100.16.43 -l azureuser -i ./centos.id_rsa
+  198  ls -ltar
+  199  chmod 600 centos.id_rsa 
+  200  ssh  23.100.16.43 -l azureuser -i ./centos.id_rsa
+  201  ssh 20.124.97.41 -l azureuser
+  202  ssh centosghaeagentcontroller -l azureuser
+  203  ssh 23.100.16.43 -l azureuser
+  204  ssh 
+  205  ssh 172.16.0.5 -l azureuser
+  206  ssh 23.100.16.43 
+  207  clear
+  208  hostname
+  209  ssh 23.100.16.43
+  210  ssh 172.16.0.5
+  211  ifconfig
+  212  ssh 172.16.0.5
+  213  ping 23.100.16.43
+  214  clear
+  215  telnet
+  216  clear
+  217  hostname
+  218  ssh 20.100.16.43
+  219  ssh 20.124.97.41
+  220  pwd
+  221  ls -ltar
+  222  cd .ssh
+  223  ls -ltar
+  224  cat id-rsa
+  225  cat id_rsa
+  226  clear
+  227  ls -ltar
+  228  pwd
+  229  ssh 20.124.97.41 -l azureuser
+  230  hostname
+  231  clear
+  232  ssh 
+  233  ssh 172.16.0.4 -l azureuser
+  234  ssh 20.124.97.41 -l azureuser
+  235  ipconfig 
+  236  ifconfig
+  237  ssh 20.124.97.41 -l azureuser
+  238  cd .ssh
+  239  ls -ltar
+  240  ssh 20.124.97.41 -l azureuser -i ./centos.id_rsa 
+  241  ssh 
+  242  ssh 172.16.0.4 -l azureuser
+  243  clear
+  244  history | grep curl
+  245  clear
+  246  ssh 172.16.0.5 -l azureuser
+  247  ls -ltar
+  248  ls -l | less
+  249  ls -l
+  250  ls -ltar 
+  251  clear
+  252  ls -ltar
+  253  ssh
+  254  telnet
+  255  clear
+  256  curl
+  257  traceroute
+  258  tracert
+  259  clear
+  260  pwd
+  261  ping 172.16.0.5
+  262  ping 23.100.16.43
+  263  ls -ltar
+  264  pwd
+  265  ls -ltar
+  266  hostname
+  267  ipconfig
+  268  ifconfig 
+  269  clear
+  270  hostname
+  271  clear
+  272  clea
+  273  clear
+  274  ipconfig 
+  275  ifconfig 
+  276  cd .ssh
+  277  ls -ltar
+  278  ssh azure_user@centosghaeagentcontroller -i ./centos.id_rsa 
+  279  ssh 23.100.16.43 -l azure_user -i ./centos.id_rsa
+  280  vi
+  281  clear
+  282  ssh 23.100.16.43 -l azure_user -i ./*CENT*
+  283  ls -ltar
+  284  clear
+  285  pwd
+  286  ls -ltar
+  287  vi id_rsa.GHAERedHat7.2Agent
+  288  ls -ltar
+  289  clear
+  290  az network --help
+  291  az network --help | more
+  292  az network nsg list
+  293  az network nsg list | grep "\"id\":
+  294  az network nsg list | grep "\"id\":"
+  295  az network nsg list | grep "\"id\":" | grep nsg
+  296  clear
+  297  whoami
+  298  clear
+  299  hostname
+  300  ls -ltar
+  301  az connect --help
+  302  az account list
+  303  az account list --all | grep "name\":"
+  304  ls -ltar
+  305  az network nsg list | grep "id\":" | grep nsg
+  306  az network nsg list | grep "id\":" | grep "nsg\"",
+  307  az network nsg list | grep "CentOSGHAERunner-nsg" 
+  308  hostname
+  309  ssh 172.16.0.4
+  310  telnet
+  311  clear
+  312  dig
+  313  clear
+  314  traceroute
+  315  clear
+  316  tracert
+  317  clear
+  318  dig 172.16.0.4
+  319  clear
+  320  pwd
+  321  ssh CentOSGHAEAgentController -l azureuser
+  322  ssh 23.100.16.43 -l azureuser
+  323  clear
+  324  ls -ltar
+  325  ipconfig 
+  326  ifconffig
+  327  ifconfig
+  328  id
+  329  cd .ssh
+  330  ls -ltar
+  331  cat authorized_keys
+  332  vi authorized_keys
+  333  ls -ltar
+  334  cd .ssh
+  335  ls -ltar
+  336  cd ..
+  337  ls -ltar
+  338  cat .bash_history | less
+  339  history | grep ssh
+  340  278!
+  341  ssh azure_user@centosghaeagentcontroller -i ./centos.id_rsa 
+  342  ssh azure_user@23.100.16.43 -i ./centos.id_rsa
+  343  cd .ssh
+  344  ssh azure_user@23.100.16.43 -i ./centos.id_rsa
+  345  tracert
+  346  traceroute
+  347  nslookup 23.100.16.43
+  348  ipconfig
+  349  ifconfig
+  350  nc --help
+  351  pwd
+  352  ssh 40.117.183.184 -l azureuser
+  353  az network vnet subnet show --resource-group RB_VMGrouip
+  354  az network vnet subnet show --resource-group RB_VMGrouip --name CentOSGHAERunner-nsg
+  355  az network vnet subnet show --resource-group RB_VMGrouip --vnet-name CentOSGHAERunner-nsg
+  356  az network vnet subnet show --resource-group RB_VMGrouip --vnet -name CentOSGHAERunner-nsg
+  357  az network vnet subnet list
+  358  az network vnet subnet list -g RB_VMGrouip 
+  359  az network vnet subnet list -g RB_VMGrouip --vnet-name RB_VMGrouip-vnet
+  360  pwd
+  361  ls -ltar
+  362  whoami
+  363  pwd
+  364  ls -ltar .ssh
+  365  ssh azureuser@52.224.4.239 -i ./id_rsa
+  366  pwd
+  367  ssh azureuser@52.224.4.239 -i ./.ssh/id_rsa
+  368  az vm show
+  369  az vm show --g RM_VM_Grouip
+  370  az vm list --g RM_VM_Grouip
+  371  az vm list --resource_group RM_VM_Grouip
+  372  az vm list --g RM_VM_Grouip
+  373  az vm list help
+  374  az vm help --help
+  375  az vm list --help
+  376  az vm list --resource-group  rb_vmGrouip 
+  377  az vm list --resource-group  rb_vmGrouip | grep "name":
+  378  az vm list --resource-group  rb_vmGrouip | grep "name"
+  379  az vm list --resource-group  rb_vmgrouip | grep "name"
+  380  pwd
+  381  ls -ltar
+  382  vi az-commands-help.txt
+  383  history | grep ^az
+  384  history
+  385  history | grep az
+  386  history | grep az >> az-commands-help.txt
+  387  vi az-commands-help.txt 
+  388  az vm show -g rm_vm_grouip
+  389  ls -ltar
+  390  vi az-commands-help.txt 
+  391  az vm status
+  392  az vm --help
+  393  az vm --help 2>&1 | less
+  394  az vm run-command --help
+  395  az vm run-command list
+  396  az vm run-command list --help
+  397  az account list-locations
+  398  az account list-locations | grep "name"
+  399  az account list-locations | grep "\"name\":"
+  400  az account list-locations | grep "\"name\":" | grep east
+  401  clear
+  402  ls -ltar
+  403  df -h .
+  404  ls -ltar
+  405  cd terraform.d
+  406  cd .terraform.d/
+  407  ls -ltar
+  408  cd ..
+  409  ls -ltar
+  410  cd .ssh
+  411  ls -ltar
+  412  cd ..
+  413  ls -ltar
+  414  pwd
+  415  cd .ssh
+  416  ls -ltar
+  417  cd ..
+  418  ls -ltar
+  419  az vm status
+  420  az help
+  421  clear
+  422  az help | less
+  423  az vmss list
+  424  az vmss list | less
+  425  clear
+  426  ls -ltar
+  427  ls -lar
+  428  cat az-commands-help.txt 
+  429  pwd
+  430  ls -ltar
+  431  cd .ssh
+  432  ls -ltar
+  433  history | grep ssh
+  434  ssh azure_user@23.100.16.43 -i ./centos.id_rsa
+  435  clear
+  436  pwd
+  437  cd .ssh
+  438  ls -ltar
+  439  cd oldkeys
+  440  ls -ltar
+  441  cd ..
+  442  ls -ltar
+  443  diff id_rsa.CENTOS.Battelle.Azure  id_rsa
+  444  ls -l
+  445  pwd
+  446  ssh CentOSGHAEAgentController
+  447  ssh 23.100.16.43 -l azureuser
+  448  pwd
+  449  clear
+  450  ls -ltar
+  451  ssh CentOSGHAERunner -l azureuser -i ./id_rsa.CENTOS.Battelle.Azure
+  452  ssh 50.179.88.54 -l azureuser -i ./id_rsa.CENTOS.Battelle.Azure 
+  453  pwd
+  454  cd .ssh
+  455  ls -ltar
+  456  vi id_rsa.CENTOS.Battelle.Azure 
+  457  clear
+  458  ls -ltar
+  459  cat id_rsa.CENTOS.Battelle.Azure 
+  460  clear
+  461  az 52.170.25.55 -l azureuser
+  462  ssh centosgharrunner -l azureuser
+  463  clear
+  464  ssh 172.16.0.4 -l azureuser
+  465  ssh 52.170.25.55 -l azureuser
+  466  ping 52.170.25.55
+  467  ipconfig
+  468  ifconfig
+  469  az network list
+  470  clear
+  471  az network vnet list
+  472  clear
+  473  ls -ltar
+  474  cd .ssh
+  475  ls -ltar
+  476  vi id_rsa.bastion
+  477  clear
+  478  ssh 20.127.107.111 -l azureuser -i ./*astion
+  479  ls -ltar
+  480  chmod 400 id_rsa.*
+  481  ssh 20.127.107.111 -l azureuser -i ./*astion
+  482  pwd
+  483  az network public-ip list -g RB_VMGroup
+  484  az network public-ip list -g RB_VMGrouip
+  485  az network public-ip list -g RB_VMGrouip | less
+  486  az network public-ip list -g RB_VMGrouip | grep -i ipaddress
+  487  az network public-ip list -g RB_VMGrouip | grep -i "\"ipaddress\":"
+  488  clear
+  489  who -u
+  490  ls -ltar
+  491  pwd
+  492  ls -ltar
+  493  hostname
+  494  history | grep ssh | grep -i bas
+  495  history | grep ssh
+  496  ssh 20.124.241.54 -l azureuser -i ./*astion
+  497  cd .ssh
+  498  ssh 20.124.241.54 -l azureuser -i ./*astion
+  499  clear
+  500  ssh 172.16.0.7 -l azureuser -i ./*astion
+  501  cd .ssh
+  502  ls -ltar
+  503  ssh 
+  504  ssh 172.16.0.7 -l azureuser -i ./*astion
+  505  hostname
+  506  clear
+  507  ls -ltar
+  508  ssh 172.16.0.7 -l azureuser -i ./*astion
+  509  ping  ghaebastion
+  510  nslookup ghaebastion
+  511  nslookup 20.124.241.54
+  512  nslookup 172.16.0.7
+  513  clear
+  514  tracert
+  515  traceroute
+  516  clear
+  517  az vm stop --help
+  518  az vm stop -g RB_VMGrouip -n GHAEBastion
+  519  az vm deallocate -g RB_VMGrouip -n GHAEBastion
+  520  ssh
+  521  ssh 172.16.0.7 -l azureuser
+  522  az network nsg /?
+  523  az network nsg --help
+  524  az network nsg update --help
+  525  clear
+  526  ls -ltar
+  527  who -u
+  528  clear
+  529  az vm status ?
+  530  az vm --help
+  531  az vm open-port --help
+  532  clear
+  533  az  network
+  534  az network vnet list
+  535  az network vnet list -o YAML
+  536  az network vnet list -o YAML | less
+  537  az network vnet list -o YAML | egrep -v "Null|null|NULL"
+  538  clear
+  539  pwd
+  540  ls -ltar
+  541  az vm list -g RB_VMGrouip
+  542  pwd
+  543  cd .ssh
+  544  ls -ltar
+  545  ssh 20.25.69.167 -l azureuser
+  546  help
+  547  clear
+  548  az nsg help
+  549  az network nsg help
+  550  clear
+  551  pwd
+  552  cd .ssh
+  553  ls -ltar
+  554  nslookup ghaebastion
+  555  cls
+  556  clear
+  557  ssh 172.16.0.7 -l azureuser
+  558  clear
+  559  ssh 20.25.69.167 -l azureuser
+  560  clear
+  561  pwd
+  562  ls -ltar
+  563  clear
+  564  ssh 172.16.0.7 -l azureuser
+  565  ls -ltar
+  566  cd .sssh
+  567  cd .ssh
+  568  ls -ltar
+  569  clear
+  570  ssh 
+  571  clear
+  572  ssh 20.25.69.167 -l azureuser
+  573  cd .ssh
+  574  ls -ltar
+  575  exit
+  576  ls -ltar
+  577  pwd
+  578  ls -ltar
+  579  hostname
+  580  pwd
+  581  ls -ltr
+  582  ls -ltar
+  583  cd .ssh
+  584  ls -ltar
+  585  hostname
+  586  ssh  pwd
+  587  pwd
+  588  ls -ltar
+  589  pwd
+  590  ls -ltar
+  591  vi id_rsa
+  592  cat id_rsa
+  593  clear
+  594  id
+  595  hostname
+  596  history | grep ssh 
+  597  ipconfig
+  598  ifconfig
+  599  hostname
+  600  clear
+  601  ls -ltar
+  602  history | grep astion
+  603  ssh 172.16.0.7 -l azureuser -i ./*astion
+  604  hostname
+  605  ssh centosghaerunner
+  606  pw
+  607  pwd
+  608  hostname
+  609  cd .ssh
+  610  ls -ltar
+  611  history | grep ssh
+  612  ls -ltar
+  613  ssh 172.16.0.5 -l azureuser -i ./id_rsa
+  614  pwd
+  615  ls -cf
+  616  pwd
+  617  clear
+  618  ipconfig
+  619  ifconfig
+  620  ssh 172.16.0.7 -l azureuser
+  621  az  vm status  -g rb_vmgrouip -n 172.16.0.7
+  622  az vm /?
+  623  az vm help
+  624  ipconfig
+  625  ifconfig
+  626  clear
+  627  ssh 172.16.0.7 -l azureuser
+  628  clear
+  629  who -u
+  630  ls -ltar
+  631  ssh 172.16.0.5 -l azureuser
+  632  clear
+  633  cd .ssh
+  634  ls -ltar
+  635  pwd
+  636  cd .ssh
+  637  ls -ltar
+  638  mkdir junk
+  639  mv oldkeys/ junk/
+  640  mkdir oldkeys
+  641  mv *id* oldkeys
+  642  ls -ltar
+  643  vi id_rsa
+  644  vi id_rsa.pub
+  645  vi id_rsa
+  646  ls -ltar
+  647  cat id_rsa.pub
+  648  vi id_rsa.pub
+  649  ls -ltar
+  650  cd .ssh
+  651  ls -ltar
+  652  cp -p id_rsa id_rsa.controller
+  653  cp -p id_rsa.pub id_rsa.pub.controller
+  654  cp -p id_rsa id_rsa.runner
+  655  cp -p id_rsa.pub id_rsa.pub.runner
+  656  cp -p id_rsa id_rsa.bastion
+  657  cp -p id_rsa.pub id_rsa.pub.bastion
+  658  cat id_rsa.pub.controller 
+  659  pwd
+  660  ls -ltar
+  661  cd .ssh
+  662  ls -ltar
+  663  cat id_rsa
+  664  clear
+  665  cat id_rsa
+  666  pwd
+  667  ls -ltar
+  668  clear
+  669  cd .ssh
+  670  ls -ltar
+  671  pwd
+  672  ls -ltar
+  673  ls -CF
+  674  pwd
+  675  cd .ssh
+  676  ls -ltar
+  677  pwd
+  678  ls -ltar
+  679  cd .ssh
+  680  ls -ltar
+  681  cat id_rsa
+  682  cat id_rsa.pub
+  683  ls -ltar
+  684  cd .ssh
+  685  ls -ltar
+  686  hostname
+  687  pwd
+  688  cat id_rsa.controller
+  689  ls -l id_rsa.p*er
+  690  cat id_rsa.pub.controller
+  691  ls -l id_rsa.*
+  692  pwd
+  693  clear
+  694  cd .ssh
+  695  ls -ltar
+  696  ssh azureuser@ghaecontroller -i ./id_rsa.controller
+  697  ssh azureuser@GHAEController -i ./id_rsa.controller
+  698  ping
+  699  ping 22.228.178.144
+  700  ping GHAEController
+  701  ping 20.228.178.144
+  702  pwd
+  703  ls -ltar
+  704  ping 20.228.178.144
+  705  clear
+  706  ping 20.127.32.92
+  707  clear
+  708  telnet --help
+  709  az cli help
+  710  az account show
+  711  pwd
+  712  clear
+  713  traceroute 
+  714  tracert
+  715  clear
+  716  nslookup 
+  717  nslookup
+  718  clear
+  719  ssh
+  720  clear
+  721  ls -l .ssh/*bastion
+  722  ssh 172.17.1.4 -l azureuser -i ./.ssh/id_rsa.bastion
+  723  az network nsg list
+  724  az network nsg  --help
+  725  ls -ltar
+  726  clear
+  727  echo "Starting the activity"
+  728  az account set --subscription 5214a24a-c875-4fc4-bec0-9dc48636455f
+  729  az aks get-credentials --resource-group RB_ContainerGroup --name RBAKSCluster
+  730  kubectl get nodes
+  731  kubectl create namespace actions-runner-system
+  732  kubectl create secret generic controller-manager     -n actions-runner-system     --from-literal=github_token=99f2f067b0174f773e620dbebc0831776a7d5082
+  733  curl -H "Authorization: token 99f2f067b0174f773e620dbebc0831776a7d5082" https://api.battelle.github.us/metadata
+  734  helm 
+  735  helm repo add jetstack https://charts.jetstack.io
+  736  helm repo update
+  737  helm install cert-manager jetstack/cert-manager --namespace cert-manager --create-namespace --version v1.7.1 --set installCRDs=true
+  738  helm repo add actions-runner-controller https://actions-runner-controller.github.io/actions-runner-controller
+  739  kubectl set env deploy controller-manager -c manager GITHUB_ENTERPRISE_URL=https://battelle.github.us --namespace actions-runner-system
+  740  helm upgrade --install --namespace actions-runner-system --create-namespace --wait actions-runner-controller actions-runner-controller/actions-runner-controller --set syncPeriod=1m --set githubEnterpriseServerURL=https://battelle.github.us/
+  741  kubectl get po -A
+  742  pwd
+  743  hostname
+  744  ls -ltar
+  745  vi runner.yaml
+  746  cat runner.yaml 
+  747  kubectl apply -f runner.yaml
+  748  kubectl get po -A
+  749  kubectl get deployments
+  750  vi runner.yaml 
+  751  kubectl delete -f runner.yaml
+  752  vi runner.yaml 
+  753  kubectl apply -f runner.yaml
+  754  kubectl get po -A
+  755  kubectl get runner -n actions-runner-system
+  756  kubectl desc  runner -n actions-runner-system battelle-runners
+  757  kubectl describe  runner -n actions-runner-system battelle-runners
+  758  kubectl delete -f runner.yaml
+  759  kubectl apply -f runner.yaml
+  760  kubectl describe  runner -n actions-runner-system battelle-runners
+  761  kubectl po -A
+  762  kubectl get po -A
+  763  kubectl delete -f runner.yaml
+  764  vi runners.yaml
+  765  kubectl apply -f runners.yaml
+  766  kubectrl get po -A
+  767  kubectl get po -A
+  768  kubectl delete -f runners.yaml
+  769  vi runners.yaml
+  770  cat runners.yaml 
+  771  history
+  772  765!
+  773  kubectl apply -f runners.yaml
+  774  kubectl get po -A -w
+  775  vi runners.yaml
+  776  kubectl apply -f runners.yaml
+  777  kubectl get po -A 
+  778  clear
+  779  /kubectl
+  780  clear
+  781  kubectl delete -f runners.yaml
+  782  ls -ltar
+  783  kubectl get po -A
+  784  vi runners.yaml
+  785  cat runners.yaml
+  786  kubectl apply -f runners.yaml
+  787  kubectl get po -A
+  788  kubectl get RunnerDeployment
+  789  kubectl get RunnerDeployment -n actions-runner-system
+  790  kubectl describe RunnerDeployment -n actions-runner-system actions-runner-deployment
+  791  vi runners.yaml
+  792  kubectl get nodes
+  793  kubectl describe  node aks-nodepool1-10424045-vmss000002
+  794  vi runners.yaml
+  795  ls -ltar
+  796  history | grep "kubectl describe"
+  797  kubectl describe  node aks-nodepool1-10424045-vmss000002
+  798  kubectl get po
+  799  kubectl get po -A
+  800  history
+  801  ls -ltar
+  802  vi runners.yaml
+  803  mkdir oldStuff
+  804  mv runners.yaml oldStuff
+  805  kubectl delete -f rummers.yaml
+  806  kubectl delete -f oldStuff
+  807  history | grep kubectl
+  808  kubectl get po -A
+  809  clear
+  810  pwd
+  811  ls -ltar
+  812  vi runner-static.yaml
+  813  vi runner-static.yaml 
+  814  kubectl apply -f runner-static.yaml
+  815  kubectl apply -f runner-static.yaml get po
+  816  kubectl get po -A
+  817  history
+  818  vi runner-static.yaml 
+  819  kubectl apply -f runner-static.yaml
+  820  kubectl get po -A
+  821  ls -ltar
+  822  ls -ld */
+  823  cd oldStuff
+  824  ls -ltar
+  825  cat runners.yaml
+  826  ls -ltar
+  827  ls -lart
+  828  cd ..
+  829  ls -ltar
+  830  cat runner.yaml
+  831  clear
+  832  history -5
+  833  history 5
+  834  history 10
+  835  history 20
+  836  kubectl get po -A
+  837  ls -ltar
+  838  less .bash_history 
+  839  pwd
+  840  ls -ltar
+  841  cat .bash_history 
+  842  pwd
+  843  ls -ltar
+  844  ps -ef | grep vi
+  845  vi runner-static.yaml
+  846  ls -ltar
+  847  cp -p .bash_history  .bash_history.runners.20220324
+  848  ls -ltar
+  849  du -hs .
+  850  df -h .
+  851  less .bash_history
+  852  ls -ltar
+  853  less .bash_history
+  854  ls -ltar
+  855  less .bash_*24
+  856  ls -ltar
+  857  sudo su - 
+  858  su - 
+  859  vi .bash_hsi*24
+  860  vi *24
+  861  vi .bash*24
+  862  ls -ltar
+  863  less .bash_history*24
+  864  ls -ltar
+  865  vi runner-static.yaml 
+  866  clear
+  867  kubectl get-po -A
+  868  history  | grep kubectl
+  869  kubectl get po -A
+  870  clear
+  871  ls -ltar
+  872  grep kubectl .bash_*324
+  873  kubectl get nodes
+  874  ls -ltar
+  875  rm -f .bash_history.swp 
+  876  grep az .bash_history.runners.20220324
+  877  grep az .bash_history.runners.20220324 > az.cmds.0329
+  878  vi az.cmds.0329 
+  879  ls -ltar
+  880  rm az.cmds.0329 
+  881  cat .lesshst 
+  882  vi .bash*24
+  883  kubectl list namespaces
+  884  kubectl get namespaces
+  885  kubectl autocomplete
+  886  set autocomplete
+  887  get autocomplete
+  888  set 
+  889  set -A 
+  890  set -a
+  891  set
+  892  ps -f
+  893  echo $HOSTNAME $HOSTTYPE $OSTYPE $MACHNAME
+  894  echo $HOSTNAME $HOSTTYPE $OSTYPE $MACHTYPE
+  895  echo $MAIL $MAILPATH $MAILCHECK
+  896  set | grep OPTS
+  897  echo ${BASH_CMDS[@]}
+  898  shopt
+  899  shopt | grep on
+  900  shopt | grep emacs
+  901  shopt | grep vi
+  902  clear
+  903  ls -ltar
+  904  cat .profile
+  905  ls -ltar
+  906  cat .tmux.conf
+  907  clear
+  908  kubectl --help
+  909  kubectl --help | less
+  910  kubectl auth --help
+  911  kubectl diff --help
+  912  kubectl diff --help | less
+  913  pwd
+  914  ls -ltar
+  915  cat .profile
+  916  ls -ltar
+  917  cat .bash_login
+  918  cat .bash_logout
+  919  ls -ltar .azure-shell
+  920  cat .azure-shell/history.txt 
+  921  cat .azure-shell/shell-config 
+  922  ls -ltar
+  923  cat history.json
+  924  cat .azure-shell/shell-config 
+  925  ls -ltar *json
+  926  ps -fu bandur
+  927  kubectl list namespace
+  928  kubectl get namespace
+  929  kubectl get deployments
+  930  kubectl set namespace --help
+  931  kubectl env --help
+  932  kubectl set env --help
+  933  kubectl set env --help | less
+  934  kubectl get env deployments
+  935  kubectl get  deployments
+  936  kubectl get  namespaces
+  937  kubectl get deployments -n actions-runner-system
+  938  kubectl get deployment --help
+  939  kubectl get deployment --help | less
+  940  clear
+  941  ls -ltar
+  942  history
+  943  alias k
+  944  vi ~/.alias.rc
+  945  . ~/.aliasrc
+  946  . ~/.alias.rc
+  947  k
+  948  k get deployments
+  949  k get namespaces
+  950  vi .alias.rc
+  951  . ~/.alias.rc
+  952  clear
+  953  kgn
+  954  kgd -n actions-runner-system
+  955  kustomize --help
+  956  k 
+  957  alias
+  958  k describe
+  959  k api-resources
+  960  k api-resources | less
+  961  k sa help
+  962  k serviceaccounts --help
+  963  k nodes
+  964  k api-resources | less
+  965  clear
+  966  kubectl api-resources --verbs=list --namespaced -o name \   | xargs -n 1 kubectl get --show-kind --ignore-not-found -nl -n action
+  967  kubectl explain namespace
+  968  kubectl api-resources
+  969  kubectl leases --help
+  970  kubectl
+  971  kubectl leases --help
+  972  kubectl lease --help
+  973  kubectl api-resources | grep leases
+  974  alias
+  975  . ~/.alias.rc
+  976  alias
+  977  clear
+  978  cat .profile
+  979  echo $$
+  980  ps -fp 699
+  981  cat .bash_profile
+  982  ls -ltar .bash*
+  983  vi .bash_profile
+  984  exit
+  985  ls -ltar
+  986  alias
+  987  cat .bash_profile
+  988  . ./.bash_profile 
+  989  alias
+  990  rm -f .bash_profile
+  991  ls -ltar
+  992  clear
+  993  . .alias.rc
+  994  alias
+  995  clear
+  996  ls -ltar
+  997  kubectl get nodes
+  998  kubectl get --help
+  999  kubectl get --help | less
+ 1000  kubectl get pods
+ 1001  kubectl get pods --help | less
+ 1002  kubectl get deployments
+ 1003  kubectl get nodes
+ 1004  kubectl get nodes -n actions-runner-system
+ 1005  kubectl get actions-runner-system
+ 1006  kubectl config set-context --namespace=actions-runner-system
+ 1007  history
+ 1008  echo "This would effectively switch the context to actions-runner-system so that I would not have any issue going forward"
+ 1009  alias k
+ 1010  . ~/.bashrc
+ 1011  k config set-context runner-context --namespace=actions-runner-system
+ 1012  alias k
+ 1013  . ~/.alias.rc
+ 1014  alias k
+ 1015  k config set-context runner-context --namespace=actions-runner-system
+ 1016  k config use-context runner-context
+ 1017  k get deployments
+ 1018  pwd
+ 1019  cd config
+ 1020  cd .config
+ 1021  ls -ltar
+ 1022  cd azure-datalake-store/
+ 1023  ls -ltar
+ 1024  cd ..
+ 1025  cd helm
+ 1026  ls -ltar
+ 1027  cd ../..
+ 1028  vi l
+ 1029  cd config
+ 1030  cd .config
+ 1031  ls -ltar
+ 1032  cd ..
+ 1033  ls -ltar
+ 1034  cat .bash_history 
+ 1035  kubectl login
+ 1036  history
+ 1037  kubectl status
+ 1038  alias
+ 1039  pwd
+ 1040  ls -ltar
+ 1041  alias kubectl
+ 1042  cd clouddrive
+ 1043  ls -ltar
+ 1044  cd ..
+ 1045  ls -ltar
+ 1046  cat .bash_history | less
+ 1047  :q!
+ 1048  cd .config
+ 1049  ls -ltar
+ 1050  cat ../.bash_history
+ 1051  cd ..
+ 1052  cat .alias.rc
+ 1053  alias ~/.alias.rc
+ 1054  . ~/.alias.rc
+ 1055  k
+ 1056  clear
+ 1057  azure config 
+ 1058  az config
+ 1059  az config get
+ 1060  ls -lart
+ 1061  history | tail -100 | less
+ 1062  k get deployments
+ 1063  k login
+ 1064  history | grep login
+ 1065  kubectl login
+ 1066  who -u
+ 1067  clear
+ 1068  history | grep config
+ 1069  ls -ltar
+ 1070  cd .config
+ 1071  ls -ltar
+ 1072  cd azure-datalake-store/
+ 1073  ls -ltar
+ 1074  cd ..
+ 1075  cd helm
+ 1076  ls -ltar
+ 1077  cat repositories.yaml 
+ 1078  pwd
+ 1079  cd ..
+ 1080  ls -ltar
+ 1081  cd ..
+ 1082  ls -ltar
+ 1083  cat ghae-container-runner-setup.keystrokes.txt 
+ 1084  k get pods
+ 1085  az get pods
+ 1086  az account show
+ 1087  history
+ 1088  k get pods
+ 1089  ls -ltar
+ 1090  . ~/.alias.rc
+ 1091  k
+ 1092  clear
+ 1093  k get pods
+ 1094  clear
+ 1095  az account set --subscription 5214a24a-c875-4fc4-bec0-9dc48636455f
+ 1096  az aks get-credentials --resource-group RB_ContainerGroup --name RBAKSCluster
+ 1097  # List all deployments in all namespaces
+ 1098  kubectl get deployments --all-namespaces=true
+ 1099  k get-pods -A
+ 1100  k get pods -A
+ 1101  clear
+ 1102  history
+ 1103  history > history-azure-20220404-00.txt
